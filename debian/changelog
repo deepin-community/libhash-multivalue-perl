@@ -1,5 +1,117 @@
-template-repository (1.0-1) unstable; urgency=medium
+libhash-multivalue-perl (0.16-3) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + libhash-multivalue-perl: Add Multi-Arch: foreign.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 13 Oct 2022 23:37:22 +0100
+
+libhash-multivalue-perl (0.16-2) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * Remove Fabrizio Regalli from Uploaders. Thanks for your work!
+  * Remove Jonathan Yu from Uploaders. Thanks for your work!
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 14 Jun 2022 22:17:20 +0100
+
+libhash-multivalue-perl (0.16-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 13 Jun 2022 17:53:33 +0200
+
+libhash-multivalue-perl (0.16-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ Lucas Kanashiro ]
+  * Add debian/upstream/metadata
+  * Import upstream version 0.16
+  * Bump debhelper compatibility level to 9
+  * Declare compliance with Debian policy 3.9.6
+  * Update year of upstream copyright
+  * Add autopkgtest-pkg-perl
+
+ -- Lucas Kanashiro <kanashiro.duarte@gmail.com>  Fri, 28 Aug 2015 16:12:41 -0300
+
+libhash-multivalue-perl (0.15-1) unstable; urgency=low
+
+  * Team upload
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ Nuno Carvalho ]
+  * New upstream release
+  * debian/control: update standards version to 3.9.4
+  * debian/copyright:
+    + remove copyright for inc/*, modules removed
+    + update copyright years
+    + remove comment with author's rationale, LICENSE file was
+      explicitly added
+
+ -- Nuno Carvalho <smash@cpan.org>  Fri, 04 Oct 2013 11:13:30 +0100
+
+libhash-multivalue-perl (0.12-1) unstable; urgency=low
+
+  * Imported Upstream version 0.12
+
+ -- Fabrizio Regalli <fabreg@fabreg.it>  Thu, 16 Feb 2012 22:00:30 +0100
+
+libhash-multivalue-perl (0.10-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+
+  [ Fabrizio Regalli ]
+  * Imported Upstream version 0.10
+  * Update d/copyright according to latest DEP5 revision
+  * Fixed comma-separated-files-in-dep5-copyright lintian message
+
+ -- Fabrizio Regalli <fabreg@fabreg.it>  Mon, 19 Sep 2011 17:14:51 +0200
+
+libhash-multivalue-perl (0.09-1) unstable; urgency=low
+
+  [ Fabrizio Regalli ]
+  * New upstream release.
+  * Update d/compat to 8.
+  * Update Standards-Version to 3.9.2.
+  * Update debhelper to (>= 8).
+  * Add myself to Uploaders and Copyright.
+  * Switch to 3.0 quilt format.
+
+  [ gregor herrmann ]
+  * debian/copyright: update years of copyright for inc/Module/*.
+
+ -- Fabrizio Regalli <fabreg@fabreg.it>  Sat, 18 Jun 2011 20:03:36 +0200
+
+libhash-multivalue-perl (0.08-1) unstable; urgency=low
+
+  * Initial Release (Closes: #573347)
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Wed, 10 Mar 2010 13:50:05 -0500
